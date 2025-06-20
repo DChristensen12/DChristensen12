@@ -55,7 +55,7 @@ I’m Daniel — a chemistry and data science student at UC Berkeley with a love
 
 Organic: Vanillin — it’s what gives vanilla products their smell and taste!🍦
 
-Inorganic: Plutonium(III) chloride — it glows faintly warm due to radioactivity ☢
+Inorganic: Plutonium(III) chloride — Its tricapped trigonal prismatic geometry and peculiar behavior in high-temperature salt environments make it a prime subject for molecular dynamics simulations ᵕ̈ ☢
 
 Organometallic: Uranocene — it glows my favorite color (green) and contains my favorite element: uranium! ⚛
 
@@ -67,9 +67,9 @@ Organometallic: Uranocene — it glows my favorite color (green) and contains my
 <br/>
 
 **Interests (non-academic):**  
-- Helping others in meaningful ways 
+- Helping others in meaningful ways •ᴗ•
 - Painting 🎨, Ceramics 🏺, and Drawing ✏️
-- Crafting colorful visualizations and explanations that make complex ideas understandable
+- Crafting picturesque visualizations and explanations that make complex ideas understandable for others
 
 
 
