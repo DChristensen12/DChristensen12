@@ -13,7 +13,7 @@ I’m Daniel — a chemistry and data science student at UC Berkeley with a love
 
 ---
 
-## 🔧 Skills
+## Skills
 
 ### 🐹 Programming Languages
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?logo=gnubash&logoColor=white&style=for-the-badge)
@@ -25,7 +25,7 @@ I’m Daniel — a chemistry and data science student at UC Berkeley with a love
 ![R](https://img.shields.io/badge/R-276DC3?logo=r&logoColor=white&style=for-the-badge)
 ![SQL](https://img.shields.io/badge/SQL-003B57?logo=sqlite&logoColor=white&style=for-the-badge)
 
-### 📚 Libraries & Tools
+### Libraries & Tools
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?logo=plotly&logoColor=white&style=for-the-badge)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white&style=for-the-badge)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white&style=for-the-badge)
@@ -35,7 +35,7 @@ I’m Daniel — a chemistry and data science student at UC Berkeley with a love
 ![Seaborn](https://img.shields.io/badge/Seaborn-2D3F73?style=for-the-badge)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow&logoColor=white&style=for-the-badge)
 
-### 💻 Software & Platforms
+### Software & Platforms
 ![After Effects](https://img.shields.io/badge/After%20Effects-9999FF?logo=adobeaftereffects&logoColor=white&style=for-the-badge)
 ![AWS](https://img.shields.io/badge/AWS-FF9900?logo=amazonaws&logoColor=white&style=for-the-badge)
 ![IntelliJ](https://img.shields.io/badge/IntelliJ-000000?logo=intellijidea&logoColor=white&style=for-the-badge)
@@ -61,8 +61,8 @@ Organometallic: Uranocene — it glows my favorite color (green) and contains my
 
 <br/>
 
-🖥️ **Favorite programming language:** Python 🐍  
-🧠 **Favorite technology:** PyTorch 🔥  
+**Favorite programming language:** Python 🐍  
+**Favorite technology:** PyTorch   
 
 <br/>
 
