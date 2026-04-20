@@ -1,7 +1,7 @@
 <h1 align="center">A little about me</h1>
 
 <p align="center">
-I’m Daniel — a chemistry and data science student at UC Berkeley with a love for computational chemistry, nuclear science, human-centered data, and visual storytelling. I’m passionate about using technical tools to make a meaningful difference, especially at the intersections of science and society. I'm always learning and looking for new ways to merge scientific insight with creative problem-solving and contribute to projects with real-world impact.
+I’m Daniel, a researcher at UC Berkeley and Lawrence Berkeley National Laboratory specializing in the intersection of chemistry and data science. My work focuses on leveraging machine learning and high-performance computing to solve complex problems in climate science and sustainable energy systems. Beyond the lab, I am interested in the potential for computational tools to unlock insights/solve problems in nuclear science and astrochemistry. I’m passionate about translating these scientific perspectives into creative, high-impact solutions that address critical challenges at the intersection of science and society.
 </p>
 
 <br/>
@@ -53,23 +53,23 @@ I’m Daniel — a chemistry and data science student at UC Berkeley with a love
 ## 🌱 Other things about me!
 ⌬ Favorite molecules by category:
 
-Organic: Vanillin — it’s what gives vanilla products their smell and taste!🍦
+Organic: Vanillin -- It’s what gives vanilla products their smell and taste!
 
-Inorganic: Plutonium(III) chloride — Its tricapped trigonal prismatic geometry and peculiar behavior in high-temperature salt environments make it a prime subject for molecular dynamics simulations ᵕ̈ ☢
+Inorganic: Plutonium(III) chloride -- I like the tricapped trigonal prismatic geometry and that it is a green crystalline compound!
 
-Organometallic: Uranocene — it glows my favorite color (green) and contains my favorite element: uranium! ⚛
+Organometallic: Uranocene -- it glows my favorite color (green) and contains my favorite element: uranium! 
 
 <br/>
 
-**Favorite programming language:** Python 🐍  
+**Favorite programming language:** Python 
 **Favorite technology:** PyTorch   
 
 <br/>
 
 **Interests (non-academic):**  
 - Helping others in meaningful ways •ᴗ•
-- Painting 🎨, Ceramics 🏺, and Drawing ✏️
-- Crafting picturesque visualizations and explanations that make complex ideas understandable for others
+- Painting, Ceramics, and Drawing 
+- Crafting colorful visualizations and explanations that make complex ideas understandable for others
 
 
 
