@@ -1,7 +1,7 @@
 <h1 align="center">A little about me</h1>
 
 <p align="center">
-I’m Daniel, a researcher at UC Berkeley and Lawrence Berkeley National Laboratory specializing in the intersection of chemistry and data science. My work focuses on leveraging machine learning and high-performance computing to solve complex problems in climate science and sustainable energy systems. Beyond the lab, I am interested in the potential for computational tools to unlock insights/solve problems in nuclear science and astrochemistry. I’m passionate about translating these scientific perspectives into creative, high-impact solutions that address critical challenges at the intersection of science and society.
+I’m Daniel, a researcher at UC Berkeley and Lawrence Berkeley National Laboratory specializing in the intersection of chemistry and data science. My work focuses on leveraging machine learning and high-performance computing to solve complex problems in climate science and sustainable energy systems. My academic interests extend to nuclear sciences, green chemistry, and astrochemistry! Beyond the lab, I am driven to use computational tools to engineer solutions and unlock new insights. I’m passionate about translating these scientific perspectives into creative, high-impact outcomes that address critical challenges at the intersection of science and society!
 </p>
 
 <br/>
