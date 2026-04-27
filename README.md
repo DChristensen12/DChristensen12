@@ -62,7 +62,8 @@ Organometallic: Uranocene -- it glows my favorite color (green) and contains my 
 <br/>
 
 **Favorite programming language:** Python 
-**Favorite technology:** PyTorch   
+
+**Favorite library:** PyTorch   
 
 <br/>
 
