@@ -15,7 +15,7 @@ I’m Daniel, a researcher at UC Berkeley and Lawrence Berkeley National Laborat
 
 ## Skills
 
-### 🐹 Programming Languages
+### Programming Languages
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?logo=gnubash&logoColor=white&style=for-the-badge)
 ![C](https://img.shields.io/badge/C-A8B9CC?logo=c&logoColor=white&style=for-the-badge)
 ![C++](https://img.shields.io/badge/C++-00599C?logo=cplusplus&logoColor=white&style=for-the-badge)
@@ -50,7 +50,7 @@ I’m Daniel, a researcher at UC Berkeley and Lawrence Berkeley National Laborat
 
 ---
 
-## 🌱 Other things about me!
+## Other things about me!
 ⌬ Favorite molecules by category:
 
 Organic: Vanillin -- It’s what gives vanilla products their smell and taste!
@@ -68,7 +68,7 @@ Organometallic: Uranocene -- it glows my favorite color (green) and contains my 
 <br/>
 
 **Interests (non-academic):**  
-- Helping others in meaningful ways •ᴗ•
+- Helping others in meaningful ways 
 - Painting, Ceramics, and Drawing 
 - Crafting colorful visualizations and explanations that make complex ideas understandable for others
 
