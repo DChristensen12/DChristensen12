@@ -1,69 +1,123 @@
-<h1 align="center">A little about me</h1>
+<a href="https://github.com/DChristensen12">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:25a244,60:0096c7,100:023e8a&height=300&section=header&text=Hi,%20I'm%20Daniel!&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Chemistry%20and%20Data%20Science%20•%20Machine%20Learning%20•%20Climate%20Technology&descSize=20&descAlignY=55" width="100%" alt="Daniel's GitHub Header" />
+</a>
 
-<p align="center">
-I’m Daniel, a researcher at UC Berkeley and Lawrence Berkeley National Laboratory specializing in the intersection of chemistry and data science. My work focuses on leveraging machine learning and high-performance computing to solve complex problems in climate science and sustainable energy systems. My academic interests extend to nuclear sciences, green chemistry, and astrochemistry! Beyond the lab, I am driven to use computational tools to engineer solutions and unlock new insights. I’m passionate about translating these scientific perspectives into creative, high-impact outcomes that address critical challenges at the intersection of science and society!
-</p>
+<table>
+<tr>
+<td width="58%" valign="middle">
 
-<br/>
+I'm Daniel, a researcher at UC Berkeley and Lawrence Berkeley National Laboratory working where chemistry meets data science. I build machine learning and high-performance computing tools to take on hard problems in climate science and sustainable energy systems.
 
-<!-- Rotating Vanillin GIF -->
-<p align="center">
-  <img src="assets/GIFs/rotating_vanillin_with_computational_chemistry_background.gif" width="300" alt="Rotating vanillin with matrix-style computational chemistry background"/>
-</p>
+My curiosity also runs into nuclear science, green chemistry, and astrochemistry!
 
----
+What I care about most is using computation to turn difficult scientific questions into working solutions, and carrying that work into the places where science actually meets the world.
 
-## Skills
+</td>
+<td width="42%" valign="middle">
+<img src="assets/GIFs/rotating_vanillin_with_computational_chemistry_background.gif" width="100%" alt="Rotating vanillin with matrix-style computational chemistry background"/>
+</td>
+</tr>
+</table>
 
-### Programming Languages
-![Bash](https://img.shields.io/badge/Bash-4EAA25?logo=gnubash&logoColor=white&style=for-the-badge)
-![C](https://img.shields.io/badge/C-A8B9CC?logo=c&logoColor=white&style=for-the-badge)
-![C++](https://img.shields.io/badge/C++-00599C?logo=cplusplus&logoColor=white&style=for-the-badge)
-![Java](https://img.shields.io/badge/Java-F8981D?logo=java&logoColor=white&style=for-the-badge)
-![Markdown](https://img.shields.io/badge/Markdown-000000?logo=markdown&logoColor=white&style=for-the-badge)
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=for-the-badge)
-![R](https://img.shields.io/badge/R-276DC3?logo=r&logoColor=white&style=for-the-badge)
-![SQL](https://img.shields.io/badge/SQL-003B57?logo=sqlite&logoColor=white&style=for-the-badge)
+<img src="https://capsule-render.vercel.app/api?type=rect&color=90e0ef&height=3" width="100%"/>
 
-### Libraries & Tools
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?logo=plotly&logoColor=white&style=for-the-badge)
-![NumPy](https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white&style=for-the-badge)
-![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white&style=for-the-badge)
-![Plotly](https://img.shields.io/badge/Plotly-3F4F75?logo=plotly&logoColor=white&style=for-the-badge)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white&style=for-the-badge)
-![SciKit Learn](https://img.shields.io/badge/Scikit--learn-F7931E?logo=scikit-learn&logoColor=white&style=for-the-badge)
-![Seaborn](https://img.shields.io/badge/Seaborn-2D3F73?style=for-the-badge)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow&logoColor=white&style=for-the-badge)
+## Programming Languages
+<table>
+<tr>
+<td valign="top"><b>Languages</b></td>
+<td>
+<img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=for-the-badge" alt="Python"/>
+<img src="https://img.shields.io/badge/C++-00599C?logo=cplusplus&logoColor=white&style=for-the-badge" alt="C++"/>
+<img src="https://img.shields.io/badge/C-A8B9CC?logo=c&logoColor=white&style=for-the-badge" alt="C"/>
+<img src="https://img.shields.io/badge/Rust-000000?logo=rust&logoColor=white&style=for-the-badge" alt="Rust"/>
+<img src="https://img.shields.io/badge/Java-F8981D?logo=java&logoColor=white&style=for-the-badge" alt="Java"/>
+<img src="https://img.shields.io/badge/R-276DC3?logo=r&logoColor=white&style=for-the-badge" alt="R"/>
+<img src="https://img.shields.io/badge/SQL-003B57?logo=sqlite&logoColor=white&style=for-the-badge" alt="SQL"/>
+<img src="https://img.shields.io/badge/Bash-4EAA25?logo=gnubash&logoColor=white&style=for-the-badge" alt="Bash"/>
+</td>
+</tr>
+<tr>
+<td valign="top"><b>Machine Learning and Modeling</b></td>
+<td>
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white&style=for-the-badge" alt="PyTorch"/>
+<img src="https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow&logoColor=white&style=for-the-badge" alt="TensorFlow"/>
+<img src="https://img.shields.io/badge/Scikit--learn-F7931E?logo=scikit-learn&logoColor=white&style=for-the-badge" alt="Scikit-learn"/>
+<img src="https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white&style=for-the-badge" alt="NumPy"/>
+<img src="https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white&style=for-the-badge" alt="Pandas"/>
+</td>
+</tr>
+<tr>
+<td valign="top"><b>Data and Visualization</b></td>
+<td>
+<img src="https://img.shields.io/badge/Matplotlib-11557C?logo=matplotlib&logoColor=white&style=for-the-badge" alt="Matplotlib"/>
+<img src="https://img.shields.io/badge/Seaborn-2D3F73?style=for-the-badge" alt="Seaborn"/>
+<img src="https://img.shields.io/badge/Plotly-3F4F75?logo=plotly&logoColor=white&style=for-the-badge" alt="Plotly"/>
+<img src="https://img.shields.io/badge/Tableau-E97627?logo=tableau&logoColor=white&style=for-the-badge" alt="Tableau"/>
+<img src="https://img.shields.io/badge/Jupyter-F37626?logo=jupyter&logoColor=white&style=for-the-badge" alt="Jupyter"/>
+</td>
+</tr>
+<tr>
+<td valign="top"><b>Platforms and Tools</b></td>
+<td>
+<img src="https://img.shields.io/badge/AWS-FF9900?logo=amazonaws&logoColor=white&style=for-the-badge" alt="AWS"/>
+<img src="https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black&style=for-the-badge" alt="Linux"/>
+<img src="https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white&style=for-the-badge" alt="MySQL"/>
+<img src="https://img.shields.io/badge/VSCode-007ACC?logo=visualstudiocode&logoColor=white&style=for-the-badge" alt="VSCode"/>
+<img src="https://img.shields.io/badge/IntelliJ-000000?logo=intellijidea&logoColor=white&style=for-the-badge" alt="IntelliJ"/>
+<img src="https://img.shields.io/badge/RStudio-75AADB?logo=rstudio&logoColor=white&style=for-the-badge" alt="RStudio"/>
+</td>
+</tr>
+<tr>
+<td valign="top"><b>Creative</b></td>
+<td>
+<img src="https://img.shields.io/badge/After%20Effects-9999FF?logo=adobeaftereffects&logoColor=white&style=for-the-badge" alt="After Effects"/>
+<img src="https://img.shields.io/badge/Photoshop-31A8FF?logo=adobephotoshop&logoColor=white&style=for-the-badge" alt="Photoshop"/>
+</td>
+</tr>
+</table>
 
-### Software & Platforms
-![After Effects](https://img.shields.io/badge/After%20Effects-9999FF?logo=adobeaftereffects&logoColor=white&style=for-the-badge)
-![AWS](https://img.shields.io/badge/AWS-FF9900?logo=amazonaws&logoColor=white&style=for-the-badge)
-![IntelliJ](https://img.shields.io/badge/IntelliJ-000000?logo=intellijidea&logoColor=white&style=for-the-badge)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?logo=jupyter&logoColor=white&style=for-the-badge)
-![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black&style=for-the-badge)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white&style=for-the-badge)
-![Photoshop](https://img.shields.io/badge/Photoshop-31A8FF?logo=adobephotoshop&logoColor=white&style=for-the-badge)
-![RStudio](https://img.shields.io/badge/RStudio-75AADB?logo=rstudio&logoColor=white&style=for-the-badge)
-![Tableau](https://img.shields.io/badge/Tableau-E97627?logo=tableau&logoColor=white&style=for-the-badge)
-![VSCode](https://img.shields.io/badge/VSCode-007ACC?logo=visualstudiocode&logoColor=white&style=for-the-badge)
-![Windows](https://img.shields.io/badge/Windows-0078D6?logo=windows&logoColor=white&style=for-the-badge)
+## Laboratory and Instrumentation
 
----
+**Chromatography and Spectroscopy**  
+![HPLC](https://img.shields.io/badge/HPLC-1b4332?style=flat-square) ![TLC](https://img.shields.io/badge/Thin%20Layer%20Chromatography-1b4332?style=flat-square) ![MS](https://img.shields.io/badge/Mass%20Spectrometry-1b4332?style=flat-square) ![NMR](https://img.shields.io/badge/NMR-1b4332?style=flat-square)
+
+**Microscopy**  
+![SEM](https://img.shields.io/badge/Scanning%20Electron%20Microscopy-52b788?style=flat-square) ![AFM](https://img.shields.io/badge/Atomic%20Force%20Microscopy-52b788?style=flat-square)
+
+**Nuclear and Radiation Detection**  
+![HPGe](https://img.shields.io/badge/HPGe%20and%20NaI%28Tl%29%20detectors-0096c7?style=flat-square) ![Neutron Activation](https://img.shields.io/badge/Neutron%20Activation-0096c7?style=flat-square) ![Liquid Scintillators](https://img.shields.io/badge/Liquid%20Scintillators-0096c7?style=flat-square)
+
+**Materials and Fabrication**  
+![Photolithography](https://img.shields.io/badge/Photolithography-0077b6?style=flat-square) ![CVD](https://img.shields.io/badge/Chemical%20Vapor%20Deposition-0077b6?style=flat-square)
+
+**Scientific Software**  
+![ChemDraw](https://img.shields.io/badge/ChemDraw-023e8a?style=flat-square) ![MestReNova](https://img.shields.io/badge/MestReNova-023e8a?style=flat-square) ![Maestro](https://img.shields.io/badge/Maestro-023e8a?style=flat-square) ![GammaVision](https://img.shields.io/badge/GammaVision-023e8a?style=flat-square) ![ImageJ](https://img.shields.io/badge/ImageJ-023e8a?style=flat-square) ![LaTeX](https://img.shields.io/badge/LaTeX-023e8a?style=flat-square)
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=90e0ef&height=3" width="100%"/>
 
 ## Other things about me!
 ⌬ Favorite molecules by category:
 
-Organic: Vanillin -- It’s what gives vanilla products their smell and taste!
-
-Inorganic: Plutonium(III) chloride -- I like the tricapped trigonal prismatic geometry and that it is a green crystalline compound!
-
-Organometallic: Uranocene -- it glows my favorite color (green) and contains my favorite element: uranium! 
+<table>
+<tr>
+<th align="center">⌬ Organic</th>
+<th align="center">⬡ Inorganic</th>
+<th align="center">⚛ Organometallic</th>
+</tr>
+<tr>
+<td align="center"><b>Vanillin</b></td>
+<td align="center"><b>Plutonium(III) chloride</b></td>
+<td align="center"><b>Uranocene</b></td>
+</tr>
+<tr>
+<td align="center">It's what gives vanilla products their smell and taste!</td>
+<td align="center">I love the tricapped trigonal prismatic geometry, and it's a green crystalline compound!</td>
+<td align="center">It glows my favorite color, green, and contains my favorite element, uranium!</td>
+</tr>
+</table>
 
 <br/>
-
-**Favorite programming language:** Python 
-
-**Favorite library:** PyTorch   
+  
 
 <br/>
 
