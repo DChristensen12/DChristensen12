@@ -1,4 +1,5 @@
 import json
+import math
 import os
 import urllib.request
 
@@ -57,7 +58,6 @@ def fetch_weeks(login, token):
 
 
 def to_grid(weeks):
-    # turn the api shape into {(week, weekday): level}
     grid = {}
     for w, week in enumerate(weeks):
         for day in week["contributionDays"]:
@@ -73,14 +73,29 @@ def cy(d):
     return PAD + d * PITCH + CELL / 2.0
 
 
-def bond_line(x1, y1, x2, y2, color, delay):
-    length = round(((x2 - x1) ** 2 + (y2 - y1) ** 2) ** 0.5, 1)
-    return (
-        '<line class="bond" x1="%.1f" y1="%.1f" x2="%.1f" y2="%.1f" stroke="%s" '
-        'stroke-width="1.4" stroke-dasharray="%s" stroke-dashoffset="%s" '
-        'style="animation-delay:%ss"/>'
-        % (x1, y1, x2, y2, color, length, length, delay)
-    )
+def dist(a, b):
+    return math.hypot(a["x"] - b["x"], a["y"] - b["y"])
+
+
+def prim_mst(points):
+    if len(points) < 2:
+        return []
+    in_tree = [0]
+    rest = list(range(1, len(points)))
+    edges = []
+    while rest:
+        best = None
+        for i in in_tree:
+            for ri, j in enumerate(rest):
+                d = dist(points[i], points[j])
+                if best is None or d < best[2]:
+                    best = (i, ri, d)
+        i, ri, _ = best
+        j = rest[ri]
+        edges.append((i, j))
+        in_tree.append(j)
+        rest.pop(ri)
+    return edges
 
 
 def build_molecule(weeks, theme):
@@ -89,41 +104,48 @@ def build_molecule(weeks, theme):
     width = PAD * 2 + cols * PITCH - GAP
     height = PAD * 2 + 7 * PITCH - GAP
 
-    empties, bonds, atoms = [], [], []
-    for (w, d), level in grid.items():
-        delay = round(w * 0.03 + d * 0.012, 3)
-        if level == 0:
-            empties.append('<circle cx="%.1f" cy="%.1f" r="1.4" fill="%s"/>' % (cx(w), cy(d), colors["empty"]))
-            continue
-        # bonds to the active day on the right and below
-        if grid.get((w + 1, d), 0) > 0:
-            bonds.append(bond_line(cx(w), cy(d), cx(w + 1), cy(d), colors["bond"], delay))
-        if grid.get((w, d + 1), 0) > 0:
-            bonds.append(bond_line(cx(w), cy(d), cx(w), cy(d + 1), colors["bond"], delay))
-        # periodic boundary, stubs poke off the edge where the lattice wraps
-        if w == cols - 1 and grid.get((0, d), 0) > 0:
-            bonds.append(bond_line(cx(w), cy(d), cx(w) + 6, cy(d), colors["bond"], delay))
-            bonds.append(bond_line(cx(0) - 6, cy(d), cx(0), cy(d), colors["bond"], delay))
-        if d == 6 and grid.get((w, 0), 0) > 0:
-            bonds.append(bond_line(cx(w), cy(d), cx(w), cy(d) + 6, colors["bond"], delay))
-            bonds.append(bond_line(cx(w), cy(0) - 6, cx(w), cy(0), colors["bond"], delay))
-        radius = 3.4 + level * 0.6
+    points = []
+    empties = []
+    for w in range(cols):
+        for d in range(7):
+            level = grid.get((w, d), 0)
+            if level == 0:
+                empties.append('<circle cx="%.1f" cy="%.1f" r="1.4" fill="%s"/>' % (cx(w), cy(d), colors["empty"]))
+            else:
+                points.append({"w": w, "d": d, "x": cx(w), "y": cy(d), "lvl": level})
+
+    edges = prim_mst(points)
+    bonds = []
+    for idx, (i, j) in enumerate(edges):
+        p, q = points[i], points[j]
+        length = round(dist(p, q), 1)
+        delay = round(0.3 + idx * 0.04, 3)
+        bonds.append(
+            '<line class="bond" x1="%.1f" y1="%.1f" x2="%.1f" y2="%.1f" stroke="%s" '
+            'stroke-width="1.4" stroke-dasharray="%s" stroke-dashoffset="%s" style="animation-delay:%ss"/>'
+            % (p["x"], p["y"], q["x"], q["y"], colors["bond"], length, length, delay)
+        )
+
+    atoms = []
+    for pt in points:
+        radius = 3.4 + pt["lvl"] * 0.6
+        delay = round(pt["w"] * 0.02, 3)
         atoms.append(
             '<circle class="atom" cx="%.1f" cy="%.1f" r="%.1f" fill="%s" style="animation-delay:%ss"/>'
-            % (cx(w), cy(d), radius, colors["atoms"][level - 1], delay)
+            % (pt["x"], pt["y"], radius, colors["atoms"][pt["lvl"] - 1], delay)
         )
 
     style = (
         "<style>"
         "@keyframes pop{0%{transform:scale(0);opacity:0}70%{transform:scale(1.25);opacity:1}100%{transform:scale(1)}}"
         "@keyframes draw{to{stroke-dashoffset:0}}"
-        ".atom{transform-box:fill-box;transform-origin:center;animation:pop .55s ease-out both}"
-        ".bond{animation:draw .5s ease-out both}"
+        ".atom{transform-box:fill-box;transform-origin:center;animation:pop .45s ease-out both}"
+        ".bond{animation:draw .4s ease-out both}"
         "</style>"
     )
     return (
         '<svg xmlns="http://www.w3.org/2000/svg" width="%d" height="%d" viewBox="0 0 %d %d" role="img">'
-        "<title>Contribution molecule network</title>%s%s%s%s</svg>"
+        "<title>Contribution molecule, minimum spanning tree</title>%s%s%s%s</svg>"
         % (width, height, width, height, style, "".join(empties), "".join(bonds), "".join(atoms))
     )
 
@@ -131,9 +153,7 @@ def build_molecule(weeks, theme):
 def build_timeseries(weeks, theme):
     colors = TS_THEMES[theme]
     grid, cols = to_grid(weeks)
-    totals = []
-    for w in range(cols):
-        totals.append(sum(grid.get((w, d), 0) for d in range(7)))
+    totals = [sum(grid.get((w, d), 0) for d in range(7)) for w in range(cols)]
     max_v = max(totals + [1])
 
     width = PAD * 2 + cols * PITCH - GAP
@@ -152,7 +172,6 @@ def build_timeseries(weeks, theme):
         + " L ".join("%.1f %.1f" % (gx(w), gy(v)) for w, v in enumerate(totals))
         + " L %.1f %d Z" % (gx(cols - 1), base)
     )
-    # rolling average, window of five centered weeks
     trend_vals = []
     for i in range(cols):
         chunk = [totals[k] for k in range(i - 2, i + 3) if 0 <= k < cols]
@@ -202,6 +221,10 @@ def main():
             f.write(svg)
     print("Generated " + ", ".join(name for name, _ in files))
 
+
+if __name__ == "__main__":
+    main()
+  
 
 if __name__ == "__main__":
     main()
