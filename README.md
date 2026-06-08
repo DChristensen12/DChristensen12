@@ -96,7 +96,7 @@ What I care about most is using computation to turn difficult scientific questio
 <img src="https://capsule-render.vercel.app/api?type=rect&color=90e0ef&height=3" width="100%"/>
 
 ## Other things about me!
-⌬ Favorite molecules by category:
+Favorite molecules by category:
 
 <table>
 <tr>
@@ -128,12 +128,21 @@ What I care about most is using computation to turn difficult scientific questio
 
 
 
-<!-- PizzaTime GitHub contribution graph -->
+<p align="center"><b>A year of contributions, two ways</b></p>
+
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DChristensen12/DChristensen12/output/pacman-contribution-graph-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/DChristensen12/DChristensen12/output/pacman-contribution-graph.svg">
-    <img alt="pizza contribution graph" src="https://raw.githubusercontent.com/DChristensen12/DChristensen12/output/pacman-contribution-graph.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DChristensen12/DChristensen12/output/molecule-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/DChristensen12/DChristensen12/output/molecule-graph.svg">
+    <img alt="contribution molecule network" src="https://raw.githubusercontent.com/DChristensen12/DChristensen12/output/molecule-graph.svg">
+  </picture>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DChristensen12/DChristensen12/output/timeseries-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/DChristensen12/DChristensen12/output/timeseries-graph.svg">
+    <img alt="contribution time series with trend" src="https://raw.githubusercontent.com/DChristensen12/DChristensen12/output/timeseries-graph.svg">
   </picture>
 </p>
 
@@ -143,3 +152,5 @@ What I care about most is using computation to turn difficult scientific questio
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white&style=for-the-badge)](https://www.linkedin.com/in/daniel-christensen-1387b3251)
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?logo=gmail&logoColor=white&style=for-the-badge)](mailto:dan8moneyhotmail@berkeley.edu)
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2dc653,50:0096c7,100:023e8a&height=150&section=footer" width="100%"/>
