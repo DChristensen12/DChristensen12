@@ -149,4 +149,3 @@ Favorite molecules by category:
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?logo=gmail&logoColor=white&style=for-the-badge)](mailto:dan8moneyhotmail@berkeley.edu)
 [![ORCID](https://img.shields.io/badge/ORCID-A6CE39?logo=orcid&logoColor=white&style=for-the-badge)](https://orcid.org/0009-0003-9209-156X)
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2dc653,50:0096c7,100:023e8a&height=150&section=footer" width="100%"/>
