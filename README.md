@@ -15,7 +15,10 @@ What I care about most is using computation to turn difficult scientific questio
 
 </td>
 <td width="42%" valign="middle">
-<img src="assets/GIFs/rotating_vanillin_with_computational_chemistry_background.gif" width="100%" alt="Rotating vanillin with matrix-style computational chemistry background"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/GIFs/rotating_uranocene_with_neural_network_background.gif">
+  <img src="assets/GIFs/rotating_vanillin_with_computational_chemistry_background.gif" width="100%" alt="Rotating molecule, vanillin in light mode and uranocene in dark mode"/>
+</picture>
 </td>
 </tr>
 </table>
