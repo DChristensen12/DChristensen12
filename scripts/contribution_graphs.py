@@ -48,6 +48,9 @@ PAD = 14
 CYCLE = 20.0
 ATOM_GROW = 0.5
 BOND_GROW = 0.5
+ATOM_SPAN = 3.0
+BOND_SPAN = 9.0
+BOND_START = 3.3
 
 
 def frac(t):
@@ -123,11 +126,12 @@ def build_molecule(weeks, theme):
                 points.append({"w": w, "d": d, "x": cx(w), "y": cy(d), "lvl": level})
 
     edges = prim_mst(points)
+    n_bonds = len(edges)
     bonds = []
     for idx, (i, j) in enumerate(edges):
         p, q = points[i], points[j]
         length = round(dist(p, q), 1)
-        start = 0.4 + idx * 0.03
+        start = BOND_START + BOND_SPAN * (idx / max(1, n_bonds - 1))
         f0, f1 = frac(start), frac(start + BOND_GROW)
         bonds.append(
             '<line x1="%.1f" y1="%.1f" x2="%.1f" y2="%.1f" stroke="%s" stroke-width="1.4" '
@@ -138,9 +142,10 @@ def build_molecule(weeks, theme):
         )
 
     atoms = []
-    for pt in points:
+    n_atoms = len(points)
+    for i, pt in enumerate(points):
         radius = 3.4 + pt["lvl"] * 0.6
-        start = pt["w"] * 0.02
+        start = ATOM_SPAN * (i / max(1, n_atoms - 1))
         f0, f1 = frac(start), frac(start + ATOM_GROW)
         atoms.append(
             '<circle cx="%.1f" cy="%.1f" r="%.1f" fill="%s">'
@@ -232,4 +237,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+  
   
