@@ -13,6 +13,7 @@ query($login: String!) {
         weeks {
           contributionDays {
             contributionLevel
+            contributionCount
             weekday
           }
         }
@@ -49,7 +50,7 @@ CYCLE = 20.0
 ATOM_GROW = 0.5
 BOND_GROW = 0.5
 ATOM_SPAN = 1.5
-BOND_SPAN = 4
+BOND_SPAN = 3.5
 BOND_START = 4.0
 
 
@@ -70,10 +71,12 @@ def fetch_weeks(login, token):
 
 def to_grid(weeks):
     grid = {}
+    counts = {}
     for w, week in enumerate(weeks):
         for day in week["contributionDays"]:
             grid[(w, day["weekday"])] = LEVEL_INDEX.get(day["contributionLevel"], 0)
-    return grid, len(weeks)
+            counts[(w, day["weekday"])] = day.get("contributionCount", 0)
+    return grid, counts, len(weeks)
 
 
 def cx(w):
@@ -88,11 +91,11 @@ def dist(a, b):
     return math.hypot(a["x"] - b["x"], a["y"] - b["y"])
 
 
-def prim_mst(points):
+def prim_mst(points, start=0):
     if len(points) < 2:
         return []
-    in_tree = [0]
-    rest = list(range(1, len(points)))
+    in_tree = [start]
+    rest = [i for i in range(len(points)) if i != start]
     edges = []
     while rest:
         best = None
@@ -111,7 +114,7 @@ def prim_mst(points):
 
 def build_molecule(weeks, theme):
     colors = MOL_THEMES[theme]
-    grid, cols = to_grid(weeks)
+    grid, counts, cols = to_grid(weeks)
     width = PAD * 2 + cols * PITCH - GAP
     height = PAD * 2 + 7 * PITCH - GAP
 
@@ -123,9 +126,10 @@ def build_molecule(weeks, theme):
             if level == 0:
                 empties.append('<circle cx="%.1f" cy="%.1f" r="1.4" fill="%s"/>' % (cx(w), cy(d), colors["empty"]))
             else:
-                points.append({"w": w, "d": d, "x": cx(w), "y": cy(d), "lvl": level})
+                points.append({"w": w, "d": d, "x": cx(w), "y": cy(d), "lvl": level, "count": counts.get((w, d), 0)})
 
-    edges = prim_mst(points)
+    start = max(range(len(points)), key=lambda i: points[i]["count"]) if points else 0
+    edges = prim_mst(points, start)
     n_bonds = len(edges)
     bonds = []
     for idx, (i, j) in enumerate(edges):
@@ -163,7 +167,7 @@ def build_molecule(weeks, theme):
 
 def build_timeseries(weeks, theme):
     colors = TS_THEMES[theme]
-    grid, cols = to_grid(weeks)
+    grid, _counts, cols = to_grid(weeks)
     totals = [sum(grid.get((w, d), 0) for d in range(7)) for w in range(cols)]
     max_v = max(totals + [1])
 
