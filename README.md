@@ -121,12 +121,7 @@ Favorite molecules by category:
 
 <br/>
 
-**Interests (non-academic):**  
-- Helping others in meaningful ways 
-- Painting, Ceramics, and Drawing 
-- Crafting colorful visualizations and explanations that make complex ideas understandable for others
-
-
+**Beyond the lab:** I paint, work with ceramics, and draw, and I love turning complex ideas into colorful visualizations that actually click for the people I share them with. Honestly, if there's a way to make something more colorful, I'll find it.
 
 <p align="center"><b>My Contributions, Spanned and Smoothed</b></p>
 
@@ -152,5 +147,6 @@ Favorite molecules by category:
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white&style=for-the-badge)](https://www.linkedin.com/in/daniel-christensen-1387b3251)
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?logo=gmail&logoColor=white&style=for-the-badge)](mailto:dan8moneyhotmail@berkeley.edu)
+[![ORCID](https://img.shields.io/badge/ORCID-A6CE39?logo=orcid&logoColor=white&style=for-the-badge)](https://orcid.org/0009-0003-9209-156X)
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2dc653,50:0096c7,100:023e8a&height=150&section=footer" width="100%"/>
