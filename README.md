@@ -128,7 +128,7 @@ Favorite molecules by category:
 
 
 
-<p align="center"><b>A year of contributions, two ways</b></p>
+<p align="center"><b>My Contributions, Spanned and Smoothed</b></p>
 
 <p align="center">
   <picture>
