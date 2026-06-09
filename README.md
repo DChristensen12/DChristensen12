@@ -6,7 +6,8 @@
 <tr>
 <td width="58%" valign="middle">
 
-I'm Daniel, a researcher at UC Berkeley and Lawrence Berkeley National Laboratory working where chemistry meets data science. I build machine learning and high-performance computing tools to take on hard problems in climate science and sustainable energy systems.
+I'm Daniel, a researcher at UC Berkeley and Lawrence Berkeley National Laboratory working where chemistry meets data science. 
+I build machine learning and high-performance computing tools to take on hard problems in climate science and sustainable energy systems.
 
 My curiosity also runs into nuclear science, green chemistry, and astrochemistry!
 
