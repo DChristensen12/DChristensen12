@@ -50,7 +50,7 @@ ATOM_GROW = 0.5
 BOND_GROW = 0.5
 ATOM_SPAN = 3.0
 BOND_SPAN = 9.0
-BOND_START = 3.3
+BOND_START = 4.0
 
 
 def frac(t):
@@ -237,5 +237,4 @@ def main():
 
 if __name__ == "__main__":
     main()
-  
   
