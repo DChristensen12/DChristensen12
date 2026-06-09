@@ -45,6 +45,14 @@ GAP = 3
 PITCH = CELL + GAP
 PAD = 14
 
+CYCLE = 20.0
+ATOM_GROW = 0.5
+BOND_GROW = 0.5
+
+
+def frac(t):
+    return max(0.0, min(1.0, t / CYCLE))
+
 
 def fetch_weeks(login, token):
     body = json.dumps({"query": QUERY, "variables": {"login": login}}).encode()
@@ -119,34 +127,32 @@ def build_molecule(weeks, theme):
     for idx, (i, j) in enumerate(edges):
         p, q = points[i], points[j]
         length = round(dist(p, q), 1)
-        delay = round(0.3 + idx * 0.04, 3)
+        start = 0.4 + idx * 0.03
+        f0, f1 = frac(start), frac(start + BOND_GROW)
         bonds.append(
-            '<line class="bond" x1="%.1f" y1="%.1f" x2="%.1f" y2="%.1f" stroke="%s" '
-            'stroke-width="1.4" stroke-dasharray="%s" stroke-dashoffset="%s" style="animation-delay:%ss"/>'
-            % (p["x"], p["y"], q["x"], q["y"], colors["bond"], length, length, delay)
+            '<line x1="%.1f" y1="%.1f" x2="%.1f" y2="%.1f" stroke="%s" stroke-width="1.4" '
+            'stroke-dasharray="%s" stroke-dashoffset="%s">'
+            '<animate attributeName="stroke-dashoffset" dur="%ss" repeatCount="indefinite" '
+            'values="%s;%s;0;0" keyTimes="0;%.4f;%.4f;1"/></line>'
+            % (p["x"], p["y"], q["x"], q["y"], colors["bond"], length, length, CYCLE, length, length, f0, f1)
         )
 
     atoms = []
     for pt in points:
         radius = 3.4 + pt["lvl"] * 0.6
-        delay = round(pt["w"] * 0.02, 3)
+        start = pt["w"] * 0.02
+        f0, f1 = frac(start), frac(start + ATOM_GROW)
         atoms.append(
-            '<circle class="atom" cx="%.1f" cy="%.1f" r="%.1f" fill="%s" style="animation-delay:%ss"/>'
-            % (pt["x"], pt["y"], radius, colors["atoms"][pt["lvl"] - 1], delay)
+            '<circle cx="%.1f" cy="%.1f" r="%.1f" fill="%s">'
+            '<animate attributeName="r" dur="%ss" repeatCount="indefinite" '
+            'values="0;0;%.1f;%.1f" keyTimes="0;%.4f;%.4f;1"/></circle>'
+            % (pt["x"], pt["y"], radius, colors["atoms"][pt["lvl"] - 1], CYCLE, radius, radius, f0, f1)
         )
 
-    style = (
-        "<style>"
-        "@keyframes pop{0%{transform:scale(0);opacity:0}70%{transform:scale(1.25);opacity:1}100%{transform:scale(1)}}"
-        "@keyframes draw{to{stroke-dashoffset:0}}"
-        ".atom{transform-box:fill-box;transform-origin:center;animation:pop .45s ease-out both}"
-        ".bond{animation:draw .4s ease-out both}"
-        "</style>"
-    )
     return (
         '<svg xmlns="http://www.w3.org/2000/svg" width="%d" height="%d" viewBox="0 0 %d %d" role="img">'
-        "<title>Contribution molecule, minimum spanning tree</title>%s%s%s%s</svg>"
-        % (width, height, width, height, style, "".join(empties), "".join(bonds), "".join(atoms))
+        "<title>Contribution molecule, minimum spanning tree</title>%s%s%s</svg>"
+        % (width, height, width, height, "".join(empties), "".join(bonds), "".join(atoms))
     )
 
 
@@ -184,11 +190,13 @@ def build_timeseries(weeks, theme):
         for m in range(0, cols, 4)
     )
 
+    grow_end = round(2.5 / CYCLE, 4)
     return (
         '<svg xmlns="http://www.w3.org/2000/svg" width="%d" height="%d" viewBox="0 0 %d %d" role="img">'
         "<title>Weekly contribution time series</title>"
         '<defs><clipPath id="rev"><rect x="0" y="0" width="0" height="%d">'
-        '<animate attributeName="width" from="0" to="%d" dur="1.4s" fill="freeze"/></rect></clipPath></defs>'
+        '<animate attributeName="width" dur="%ss" repeatCount="indefinite" values="0;%d;%d" keyTimes="0;%s;1"/>'
+        "</rect></clipPath></defs>"
         '<line x1="%d" y1="%d" x2="%d" y2="%d" stroke="%s" stroke-width="0.5"/>%s'
         '<g clip-path="url(#rev)">'
         '<path d="%s" fill="%s" fill-opacity="%s"/>'
@@ -197,7 +205,7 @@ def build_timeseries(weeks, theme):
         "</g></svg>"
         % (
             width, height, width, height,
-            height, width,
+            height, CYCLE, width, width, grow_end,
             PAD, base, width - PAD, base, colors["axis"], ticks,
             area, colors["area"], colors["area_op"],
             line, colors["line"],
@@ -221,10 +229,6 @@ def main():
             f.write(svg)
     print("Generated " + ", ".join(name for name, _ in files))
 
-
-if __name__ == "__main__":
-    main()
-  
 
 if __name__ == "__main__":
     main()
