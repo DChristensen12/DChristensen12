@@ -82,20 +82,24 @@ What I care about most is using computation to turn difficult scientific questio
 
 ## Laboratory and Instrumentation
 
-**Chromatography and Spectroscopy**  
-![HPLC](https://img.shields.io/badge/HPLC-1b4332?style=flat-square) ![TLC](https://img.shields.io/badge/Thin%20Layer%20Chromatography-1b4332?style=flat-square) ![MS](https://img.shields.io/badge/Mass%20Spectrometry-1b4332?style=flat-square) ![NMR](https://img.shields.io/badge/NMR-1b4332?style=flat-square)
+**Chemical and Structural Analysis**  
+![High-Performance Liquid Chromatography](https://img.shields.io/badge/HPLC-1b4332?style=flat-square) ![Thin Layer Chromatography](https://img.shields.io/badge/Thin%20Layer%20Chromatography-1b4332?style=flat-square) ![Mass Spectrometry](https://img.shields.io/badge/Mass%20Spectrometry-1b4332?style=flat-square) ![NMR](https://img.shields.io/badge/NMR-1b4332?style=flat-square) ![Raman Spectroscopy](https://img.shields.io/badge/Raman%20Spectroscopy-1b4332?style=flat-square) ![Fourier-Transform Infrared Spectroscopy](https://img.shields.io/badge/Fourier--Transform%20Infrared%20Spectroscopy-1b4332?style=flat-square) ![X-ray Diffraction](https://img.shields.io/badge/X--ray%20Diffraction-1b4332?style=flat-square) ![Pulsed Laser Spectroscopy](https://img.shields.io/badge/Pulsed%20Laser%20Spectroscopy-1b4332?style=flat-square) ![Microwave Plasma Atomic Emission Spectroscopy](https://img.shields.io/badge/Microwave%20Plasma%20Atomic%20Emission%20Spectroscopy-1b4332?style=flat-square)
 
-**Microscopy**  
-![SEM](https://img.shields.io/badge/Scanning%20Electron%20Microscopy-52b788?style=flat-square) ![AFM](https://img.shields.io/badge/Atomic%20Force%20Microscopy-52b788?style=flat-square)
+**Microscopy and Particle Analysis**  
+![Scanning Electron Microscopy](https://img.shields.io/badge/Scanning%20Electron%20Microscopy-52b788?style=flat-square) ![Atomic Force Microscopy](https://img.shields.io/badge/Atomic%20Force%20Microscopy-52b788?style=flat-square) ![Dynamic Light Scattering](https://img.shields.io/badge/Dynamic%20Light%20Scattering-52b788?style=flat-square)
 
-**Nuclear and Radiation Detection**  
-![HPGe](https://img.shields.io/badge/HPGe%20and%20NaI%28Tl%29%20detectors-0096c7?style=flat-square) ![Neutron Activation](https://img.shields.io/badge/Neutron%20Activation-0096c7?style=flat-square) ![Liquid Scintillators](https://img.shields.io/badge/Liquid%20Scintillators-0096c7?style=flat-square)
+**Nuclear and Radiochemistry**  
+![High-Purity Germanium Gamma Spectroscopy](https://img.shields.io/badge/High--Purity%20Germanium%20Gamma%20Spectroscopy-0096c7?style=flat-square) ![Sodium Iodide Scintillation](https://img.shields.io/badge/Sodium%20Iodide%20Scintillation-0096c7?style=flat-square) ![Alpha Spectroscopy](https://img.shields.io/badge/Alpha%20Spectroscopy-0096c7?style=flat-square) ![Geiger-Muller Detection](https://img.shields.io/badge/Geiger--Muller%20Detection-0096c7?style=flat-square) ![Neutron Activation Analysis](https://img.shields.io/badge/Neutron%20Activation%20Analysis-0096c7?style=flat-square) ![Isotope Dilution Analysis](https://img.shields.io/badge/Isotope%20Dilution%20Analysis-0096c7?style=flat-square) ![Solvent Extraction](https://img.shields.io/badge/Solvent%20Extraction-0096c7?style=flat-square) ![Ion Exchange](https://img.shields.io/badge/Ion%20Exchange-0096c7?style=flat-square) ![Electrodeposition](https://img.shields.io/badge/Electrodeposition-0096c7?style=flat-square) ![Liquid Scintillation](https://img.shields.io/badge/Liquid%20Scintillation-0096c7?style=flat-square)
 
 **Materials and Fabrication**  
-![Photolithography](https://img.shields.io/badge/Photolithography-0077b6?style=flat-square) ![CVD](https://img.shields.io/badge/Chemical%20Vapor%20Deposition-0077b6?style=flat-square)
+![Photolithography](https://img.shields.io/badge/Photolithography-0077b6?style=flat-square) ![Thermal Oxidation](https://img.shields.io/badge/Thermal%20Oxidation-0077b6?style=flat-square) ![Chemical Vapor Deposition](https://img.shields.io/badge/Chemical%20Vapor%20Deposition-0077b6?style=flat-square) ![Physical Vapor Deposition](https://img.shields.io/badge/Physical%20Vapor%20Deposition-0077b6?style=flat-square) ![Wet Etching](https://img.shields.io/badge/Wet%20Etching-0077b6?style=flat-square) ![Dopant Diffusion](https://img.shields.io/badge/Dopant%20Diffusion-0077b6?style=flat-square)
+> Fabricated and characterized a working NMOS transistor through the full silicon process flow.
+
+**Semiconductor Characterization**  
+![Four-Point Probe](https://img.shields.io/badge/Four--Point%20Probe-0353a4?style=flat-square) ![Current-Voltage Characterization](https://img.shields.io/badge/Current--Voltage%20Characterization-0353a4?style=flat-square) ![Capacitance-Voltage Profiling](https://img.shields.io/badge/Capacitance--Voltage%20Profiling-0353a4?style=flat-square) ![MOSFET Parameter Extraction](https://img.shields.io/badge/MOSFET%20Parameter%20Extraction-0353a4?style=flat-square) ![Thin-Film Reflectometry](https://img.shields.io/badge/Thin--Film%20Reflectometry-0353a4?style=flat-square)
 
 **Scientific Software**  
-![ChemDraw](https://img.shields.io/badge/ChemDraw-023e8a?style=flat-square) ![MestReNova](https://img.shields.io/badge/MestReNova-023e8a?style=flat-square) ![Maestro](https://img.shields.io/badge/Maestro-023e8a?style=flat-square) ![GammaVision](https://img.shields.io/badge/GammaVision-023e8a?style=flat-square) ![ImageJ](https://img.shields.io/badge/ImageJ-023e8a?style=flat-square) ![LaTeX](https://img.shields.io/badge/LaTeX-023e8a?style=flat-square)
+![ChemDraw](https://img.shields.io/badge/ChemDraw-023e8a?style=flat-square) ![MestReNova](https://img.shields.io/badge/MestReNova-023e8a?style=flat-square) ![Maestro](https://img.shields.io/badge/Maestro-023e8a?style=flat-square) ![GammaVision](https://img.shields.io/badge/GammaVision-023e8a?style=flat-square) ![ImageJ](https://img.shields.io/badge/ImageJ-023e8a?style=flat-square) ![LaTeX](https://img.shields.io/badge/LaTeX-023e8a?style=flat-square) ![LabVIEW](https://img.shields.io/badge/LabVIEW-023e8a?style=flat-square)
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=90e0ef&height=3" width="100%"/>
 
