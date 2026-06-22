@@ -23,6 +23,7 @@ What I care about most is using computation to turn difficult scientific questio
 </tr>
 </table>
 
+
 <img src="https://capsule-render.vercel.app/api?type=rect&color=90e0ef&height=3" width="100%"/>
 
 ## Computing and Tools
@@ -101,6 +102,8 @@ What I care about most is using computation to turn difficult scientific questio
 **Scientific Software**  
 ![ChemDraw](https://img.shields.io/badge/ChemDraw-023e8a?style=flat-square) ![MestReNova](https://img.shields.io/badge/MestReNova-023e8a?style=flat-square) ![Maestro](https://img.shields.io/badge/Maestro-023e8a?style=flat-square) ![GammaVision](https://img.shields.io/badge/GammaVision-023e8a?style=flat-square) ![ImageJ](https://img.shields.io/badge/ImageJ-023e8a?style=flat-square) ![LaTeX](https://img.shields.io/badge/LaTeX-023e8a?style=flat-square) ![LabVIEW](https://img.shields.io/badge/LabVIEW-023e8a?style=flat-square)
 
+<br/>
+
 <img src="https://capsule-render.vercel.app/api?type=rect&color=90e0ef&height=3" width="100%"/>
 
 ## Other things about me!
@@ -131,6 +134,7 @@ Favorite molecules by category:
 <kbd>Beyond the lab:</kbd> &nbsp; I paint, work with ceramics, and draw, and I love turning complex ideas into colorful visualizations that actually click for the people I share them with. If there's a way to make something more colorful, I'll find it.
 </td></tr>
 </table>
+<br/>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=90e0ef&height=3" width="100%"/>
 
@@ -151,6 +155,7 @@ Favorite molecules by category:
     <img alt="contribution time series with trend" src="https://raw.githubusercontent.com/DChristensen12/DChristensen12/output/timeseries-graph.svg">
   </picture>
 </p>
+
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=90e0ef&height=3" width="100%"/>
 
