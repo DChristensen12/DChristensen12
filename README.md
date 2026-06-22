@@ -25,7 +25,7 @@ What I care about most is using computation to turn difficult scientific questio
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=90e0ef&height=3" width="100%"/>
 
-## Programming Languages
+## Computing and Tools
 <table>
 <tr>
 <td valign="top"><b>Languages</b></td>
