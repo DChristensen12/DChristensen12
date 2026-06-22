@@ -103,7 +103,7 @@ What I care about most is using computation to turn difficult scientific questio
 ![ChemDraw](https://img.shields.io/badge/ChemDraw-023e8a?style=flat-square) ![MestReNova](https://img.shields.io/badge/MestReNova-023e8a?style=flat-square) ![Maestro](https://img.shields.io/badge/Maestro-023e8a?style=flat-square) ![GammaVision](https://img.shields.io/badge/GammaVision-023e8a?style=flat-square) ![ImageJ](https://img.shields.io/badge/ImageJ-023e8a?style=flat-square) ![LaTeX](https://img.shields.io/badge/LaTeX-023e8a?style=flat-square) ![LabVIEW](https://img.shields.io/badge/LabVIEW-023e8a?style=flat-square)
 
 
-<p align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=90e0ef&height=3" width="100%"/></p>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=90e0ef&height=3&width=1200" width="100%"/>
 
 
 ## Other things about me!
