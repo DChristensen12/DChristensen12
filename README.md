@@ -105,8 +105,6 @@ What I care about most is using computation to turn difficult scientific questio
 
 <p align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=90e0ef&height=3" width="100%"/></p>
 
-## Other things about me!
-
 
 ## Other things about me!
 Favorite molecules by category:
