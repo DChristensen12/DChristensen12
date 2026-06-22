@@ -24,7 +24,7 @@ What I care about most is using computation to turn difficult scientific questio
 </table>
 
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=90e0ef&height=3" width="100%"/>
+<img src="assets/sky-divider.svg" width="100%" height="3" alt=""/>
 
 ## Computing and Tools
 <table>
@@ -103,7 +103,7 @@ What I care about most is using computation to turn difficult scientific questio
 ![ChemDraw](https://img.shields.io/badge/ChemDraw-023e8a?style=flat-square) ![MestReNova](https://img.shields.io/badge/MestReNova-023e8a?style=flat-square) ![Maestro](https://img.shields.io/badge/Maestro-023e8a?style=flat-square) ![GammaVision](https://img.shields.io/badge/GammaVision-023e8a?style=flat-square) ![ImageJ](https://img.shields.io/badge/ImageJ-023e8a?style=flat-square) ![LaTeX](https://img.shields.io/badge/LaTeX-023e8a?style=flat-square) ![LabVIEW](https://img.shields.io/badge/LabVIEW-023e8a?style=flat-square)
 
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=90e0ef&height=3&width=1200" width="100%"/>
+<img src="assets/sky-divider.svg" width="100%" height="3" alt=""/>
 
 
 ## Other things about me!
@@ -136,7 +136,7 @@ Favorite molecules by category:
 </table>
 <br/>
 
-<p align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=90e0ef&height=3" width="100%"/></p>
+<img src="assets/sky-divider.svg" width="100%" height="3" alt=""/>
 
 <p align="center"><b>My Contributions, Spanned and Smoothed</b></p>
 
@@ -157,7 +157,7 @@ Favorite molecules by category:
 </p>
 
 
-<p align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=90e0ef&height=3" width="100%"/></p>
+<img src="assets/sky-divider.svg" width="100%" height="3" alt=""/>
 
 
 
