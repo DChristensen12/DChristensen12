@@ -55,7 +55,7 @@ What I care about most is using computation to turn difficult scientific questio
 <td valign="top"><b>Data and Visualization</b></td>
 <td>
 <img src="https://img.shields.io/badge/Matplotlib-11557C?logo=matplotlib&logoColor=white&style=for-the-badge" alt="Matplotlib"/>
-<img src="https://img.shields.io/badge/Seaborn-2D3F73?style=for-the-badge" alt="Seaborn"/>
+<img src="https://img.shields.io/badge/Seaborn-2D3F73?logo=python&logoColor=white&style=for-the-badge" alt="Seaborn"/>
 <img src="https://img.shields.io/badge/Plotly-3F4F75?logo=plotly&logoColor=white&style=for-the-badge" alt="Plotly"/>
 <img src="https://img.shields.io/badge/Tableau-E97627?logo=tableau&logoColor=white&style=for-the-badge" alt="Tableau"/>
 <img src="https://img.shields.io/badge/Jupyter-F37626?logo=jupyter&logoColor=white&style=for-the-badge" alt="Jupyter"/>
@@ -64,7 +64,7 @@ What I care about most is using computation to turn difficult scientific questio
 <tr>
 <td valign="top"><b>Platforms and Tools</b></td>
 <td>
-<img src="https://img.shields.io/badge/AWS-FF9900?logo=amazonaws&logoColor=white&style=for-the-badge" alt="AWS"/>
+<img src="https://custom-icon-badges.demolab.com/badge/AWS-FF9900?logo=aws&logoColor=white&style=for-the-badge" alt="AWS"/>
 <img src="https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black&style=for-the-badge" alt="Linux"/>
 <img src="https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white&style=for-the-badge" alt="MySQL"/>
 <img src="https://img.shields.io/badge/VSCode-007ACC?logo=visualstudiocode&logoColor=white&style=for-the-badge" alt="VSCode"/>
