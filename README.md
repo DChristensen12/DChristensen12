@@ -1,5 +1,5 @@
 <a href="https://github.com/DChristensen12">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:25a244,60:0096c7,100:023e8a&height=300&section=header&text=Hi,%20I'm%20Daniel!&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Chemistry%20and%20Data%20Science%20•%20Machine%20Learning%20•%20AI%20for%20Physical%20Sciences&descSize=20&descAlignY=55" width="100%" alt="Daniel's GitHub Header" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:25a244,60:0096c7,100:023e8a&height=300&section=header&text=Hi,%20I'm%20Daniel!&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Chemistry%20and%20Data%20Science%20•%20Machine%20Learning%20•%20Scientific%20Computing%20&descSize=20&descAlignY=55" width="100%" alt="Daniel's GitHub Header" />
 </a>
 
 <table>
