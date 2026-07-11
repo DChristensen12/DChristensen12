@@ -121,9 +121,9 @@ Favorite molecules by category:
 <td align="center"><b>Uranocene</b></td>
 </tr>
 <tr>
-<td align="center">It's what gives vanilla products their smell and taste!</td>
-<td align="center">I love the tricapped trigonal prismatic geometry, and it's a green crystalline compound!</td>
-<td align="center">It glows my favorite color, green, and contains my favorite element, uranium!</td>
+<td align="center">It has a distinct vanilla smell I liked in my organic chemistry lab!</td>
+<td align="center">I love its tricapped trigonal prismatic geometry, and it's a green crystalline compound</td>
+<td align="center">It glows my favorite color, green, contains my favorite element, uranium, and looks like a molecular sandwich with nice D<sub>8h</sub> symmetry.</td>
 </tr>
 </table>
 
