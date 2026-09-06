@@ -62,13 +62,20 @@ What I care about most is using computation to turn difficult scientific questio
 </td>
 </tr>
 <tr>
+<td valign="top"><b>Databases</b></td>
+<td>
+<img src="https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white&style=for-the-badge" alt="MySQL"/>
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white&style=for-the-badge" alt="PostgreSQL"/>
+<img src="https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white&style=for-the-badge" alt="MongoDB"/>
+</td>
+</tr>
+<tr>
 <td valign="top"><b>Platforms and Tools</b></td>
 <td>
 <img src="https://custom-icon-badges.demolab.com/badge/AWS-FF9900?logo=aws&logoColor=white&style=for-the-badge" alt="AWS"/>
 <img src="https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black&style=for-the-badge" alt="Linux"/>
 <img src="https://img.shields.io/badge/Slurm-41A6D9?style=for-the-badge" alt="Slurm"/>
 <img src="https://img.shields.io/badge/NERSC%20Perlmutter-003262?style=for-the-badge" alt="NERSC Perlmutter"/>
-<img src="https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white&style=for-the-badge" alt="MySQL"/>
 <img src="https://img.shields.io/badge/VSCode-007ACC?logo=visualstudiocode&logoColor=white&style=for-the-badge" alt="VSCode"/>
 <img src="https://img.shields.io/badge/IntelliJ-000000?logo=intellijidea&logoColor=white&style=for-the-badge" alt="IntelliJ"/>
 <img src="https://img.shields.io/badge/RStudio-75AADB?logo=rstudio&logoColor=white&style=for-the-badge" alt="RStudio"/>
