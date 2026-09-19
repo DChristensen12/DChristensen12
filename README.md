@@ -38,6 +38,7 @@ What I care about most is using computation to turn difficult scientific questio
 <img src="https://img.shields.io/badge/Java-F8981D?logo=java&logoColor=white&style=for-the-badge" alt="Java"/>
 <img src="https://img.shields.io/badge/R-276DC3?logo=r&logoColor=white&style=for-the-badge" alt="R"/>
 <img src="https://img.shields.io/badge/SQL-003B57?logo=sqlite&logoColor=white&style=for-the-badge" alt="SQL"/>
+<img src="https://img.shields.io/badge/MATLAB-0076A8?logo=mathworks&logoColor=white&style=for-the-badge" alt="MATLAB"/>
 <img src="https://img.shields.io/badge/Bash-4EAA25?logo=gnubash&logoColor=white&style=for-the-badge" alt="Bash"/>
 </td>
 </tr>
@@ -49,6 +50,7 @@ What I care about most is using computation to turn difficult scientific questio
 <img src="https://img.shields.io/badge/Scikit--learn-F7931E?logo=scikit-learn&logoColor=white&style=for-the-badge" alt="Scikit-learn"/>
 <img src="https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white&style=for-the-badge" alt="NumPy"/>
 <img src="https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white&style=for-the-badge" alt="Pandas"/>
+<img src="https://img.shields.io/badge/Polars-CD792C?logo=polars&logoColor=white&style=for-the-badge" alt="Polars"/>
 </td>
 </tr>
 <tr>
@@ -79,6 +81,7 @@ What I care about most is using computation to turn difficult scientific questio
 <img src="https://img.shields.io/badge/VSCode-007ACC?logo=visualstudiocode&logoColor=white&style=for-the-badge" alt="VSCode"/>
 <img src="https://img.shields.io/badge/IntelliJ-000000?logo=intellijidea&logoColor=white&style=for-the-badge" alt="IntelliJ"/>
 <img src="https://img.shields.io/badge/RStudio-75AADB?logo=rstudio&logoColor=white&style=for-the-badge" alt="RStudio"/>
+<img src="https://img.shields.io/badge/CVX-4B8BBE?style=for-the-badge" alt="CVX"/>
 </td>
 </tr>
 <tr>
